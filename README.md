@@ -30,8 +30,7 @@ Comandos CMD úteis para técnicos de hardware
 - **Exemplo de uso:**  
 driverquery
 
-yaml
-Copiar código
+
 
 ---
 
@@ -43,8 +42,7 @@ Para identificar programas que estão consumindo muitos recursos da CPU ou da me
 - **Exemplo de uso:**  
 tasklist
 
-yaml
-Copiar código
+
 
 ---
 
@@ -56,8 +54,7 @@ Para obter uma visão geral completa do sistema sem usar programas de terceiros.
 - **Exemplo de uso:**  
 msinfo32
 
-yaml
-Copiar código
+
 
 ---
 
@@ -69,8 +66,7 @@ Para verificar se o ambiente está configurado corretamente para reconhecer hard
 - **Exemplo de uso:**  
 set
 
-yaml
-Copiar código
+
 
 ---
 
