@@ -102,8 +102,9 @@ Após isso, o repositório foi criado com sucesso e o arquivo `README.md` foi ed
 1. **Comando:** `driverquery`  
 **Função:** Lista todos os drivers instalados no sistema, incluindo o nome do módulo, tipo e data.  
 **Uso:** Verificar se os drivers de hardware estão instalados corretamente ou identificar problemas de compatibilidade.  
-**Exemplo de uso:**  
-
+**Exemplo de uso:**
+```cmd
+driverquery
 
    2. **Comando:** `tasklist`  
 **Função:** Exibe todos os processos em execução no sistema, semelhante ao Gerenciador de Tarefas.  
