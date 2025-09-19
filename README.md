@@ -103,7 +103,18 @@ wmic diskdrive get status
 yaml
 Copiar código
 
+## 🛠️ Parte 3: Criação do Repositório no GitHub
 
+Para organizar os arquivos da atividade, foi criado um repositório no GitHub com os seguintes passos:
+
+1. Acessar o site [https://github.com](https://github.com)
+2. Fazer login na conta criada
+3. Clicar em **"New repository"** no canto superior direito
+4. Definir um nome para o repositório (ex: `atividade-readme-cmd`)
+5. Marcar a opção **"Add a README file"**
+6. Clicar no botão **"Create repository"**
+
+Após isso, o repositório foi criado com sucesso e o arquivo `README.md` foi editado com as informações da atividade.
 
 
 ## 💻 Comandos CMD voltados para hardware
