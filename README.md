@@ -105,8 +105,6 @@ Copiar código
 
 
 
- O que é um README.md?
-O README.md é um arquivo que apresenta e explica um projeto, trazendo informações importantes como objetivos, instruções de uso, configurações e detalhes técnicos. Ele é escrito em Markdown, uma linguagem simples para formatação de texto.
 
 ## 💻 Comandos CMD voltados para hardware
 
@@ -130,4 +128,16 @@ O README.md é um arquivo que apresenta e explica um projeto, trazendo informaç
    **Função:** Mostra o status dos discos conectados, indicando se estão saudáveis.  
    **Uso:** Avaliar a integridade do disco rígido.
 
+## 👤 Autor  
+Luis Gustavo Giacometo de Souza
+
+## 📅 Data  
+19/09/2025
+
+## 📧 Contato  
+denisegiacometo51@gmail.com
+
+## 🧠 O que aprendi?  
+Nesta atividade, aprendi a importância do arquivo README.md para organizar e apresentar informações sobre projetos no GitHub.  
+Também entendi como alguns comandos do CMD  são úteis para técnicos de hardware, essas ferramentas são fundamentais para manter o funcionamento correto do hardware e do sistema operacional.
 
