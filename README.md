@@ -145,5 +145,5 @@ denisegiacometo51@gmail.com
 
 ## 🧠 O que aprendi?  
 Nesta atividade, aprendi a importância do arquivo README.md para organizar e apresentar informações sobre projetos no GitHub.  
-Também entendi como alguns comandos do CMD  são úteis para técnicos de hardware, essas ferramentas são fundamentais para manter o funcionamento correto do hardware e do sistema operacional.
+Também entendi como alguns comandos do cmd  são úteis para técnicos de hardware, essas ferramentas são fundamentais para manter o funcionamento correto do hardware e do sistema operacional.
 
