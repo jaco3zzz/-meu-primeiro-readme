@@ -76,6 +76,7 @@ Gera um relatório completo da bateria do notebook em formato HTML.
 - **Quando pode ser útil:**  
 Para diagnosticar desgaste da bateria, verificar ciclos de carga ou saber se é hora de trocar.
 - **Exemplo de uso:**  
+powercfg /batteryreport
 
 
 
