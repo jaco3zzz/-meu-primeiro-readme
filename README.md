@@ -9,7 +9,7 @@ O `README.md` é um arquivo de texto escrito em **Markdown**, um formato simples
 Esse arquivo é usado para **apresentar um projeto**, explicando do que se trata, como instalar, usar e contribuir. Ele é o **primeiro contato** que as pessoas terão com o repositório no GitHub.
 
 ## ✅ Em quais contextos ele é mais usado?
-
+ 
    
 O `README.md` é amplamente utilizado em:
 
