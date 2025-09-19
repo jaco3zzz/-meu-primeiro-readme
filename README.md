@@ -102,32 +102,36 @@ Após isso, o repositório foi criado com sucesso e o arquivo `README.md` foi ed
 ### 1. Comando: `driverquery`  
 **Função:** Lista todos os drivers instalados no sistema, incluindo o nome do módulo, tipo e data.  
 **Uso:** Verificar se os drivers de hardware estão instalados corretamente ou identificar problemas de compatibilidade.  
-**Exemplo de uso:**
-driverquery
+**Exemplo de uso:** 
+ ```cmd
+  driverquery
 
    2. **Comando:** `tasklist`  
 **Função:** Exibe todos os processos em execução no sistema, semelhante ao Gerenciador de Tarefas.  
 **Uso:** Identificar programas que consomem muitos recursos da CPU ou da memória.  
 **Exemplo de uso:**
+```cmd
 tasklist
-
 3. **Comando:** `msinfo32`  
 **Função:** Abre a ferramenta "Informações do Sistema", que mostra detalhes do hardware, software e componentes do computador.  
 **Uso:** Obter uma visão geral completa do sistema sem usar programas de terceiros.  
 **Exemplo de uso:**
+```cmd
 msinfo32
 
 4. **Comando:** `set`  
 **Função:** Exibe as variáveis de ambiente do sistema, que podem incluir configurações relacionadas ao hardware e software.  
 **Uso:** Verificar se o ambiente está configurado corretamente para reconhecer hardware e software.  
 **Exemplo de uso:**
+```cmd
 set
-
 5. **Comando:** `powercfg /batteryreport`  
 **Função:** Gera um relatório detalhado da bateria do notebook em formato HTML.  
 **Uso:** Diagnosticar desgaste da bateria, verificar ciclos de carga e avaliar a saúde da bateria.  
 **Exemplo de uso:**
+```cmd
 powercfg /batteryreport /output "C:\Users\seu_usuario\battery-report.html"
+
 
 ## 👤 Autor  
 Luis Gustavo Giacometo de Souza
