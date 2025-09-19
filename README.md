@@ -20,88 +20,68 @@ O `README.md` é amplamente utilizado em:
 - Tutoriais ou instruções técnicas
 Comandos CMD úteis para técnicos de hardware
 
+## 💻 Parte 2: Comandos CMD alternativos voltados para hardware
 
-
-Comandos CMD úteis para técnicos de hardware
-   
-### 1. `systeminfo`
-
+### 1. `driverquery`
 - **O que ele faz:**  
-  Exibe informações detalhadas sobre o sistema operacional, hardware e configurações do computador, como nome do PC, fabricante, versão do Windows, memória RAM, etc.
-
+  Lista todos os drivers instalados no sistema, incluindo o nome do módulo, tipo e data.
 - **Quando pode ser útil:**  
-  Ao fazer um diagnóstico inicial de um computador, verificando informações de hardware e sistema.
-
+  Para verificar se drivers de hardware estão instalados corretamente ou para identificar problemas de compatibilidade.
 - **Exemplo de uso:**  
-systeminfo
+driverquery
 
 yaml
 Copiar código
 
 ---
 
-### 2. `wmic cpu get name`
-
+### 2. `tasklist`
 - **O que ele faz:**  
-Mostra o nome e modelo do processador instalado no computador.
-
+Mostra todos os processos em execução no sistema, semelhante ao Gerenciador de Tarefas.
 - **Quando pode ser útil:**  
-Ao verificar a compatibilidade de software ou desempenho com base no tipo de CPU.
-
+Para identificar programas que estão consumindo muitos recursos da CPU ou da memória.
 - **Exemplo de uso:**  
-wmic cpu get name
+tasklist
 
 yaml
 Copiar código
 
 ---
 
-### 3. `chkdsk`
-
+### 3. `msinfo32`
 - **O que ele faz:**  
-Verifica e corrige erros no disco rígido (HD ou SSD).
-
+Abre a "Informação do Sistema", uma ferramenta gráfica que mostra detalhes do hardware, software e componentes.
 - **Quando pode ser útil:**  
-Quando o computador está lento, travando ou apresentando mensagens de erro relacionadas ao disco.
-
+Para obter uma visão geral completa do sistema sem usar programas de terceiros.
 - **Exemplo de uso:**  
-chkdsk C: /f
-
-yaml
-Copiar código
-(O `/f` tenta corrigir os erros encontrados)
-
----
-
-### 4. `sfc /scannow`
-
-- **O que ele faz:**  
-Verifica e repara arquivos de sistema corrompidos ou alterados do Windows.
-
-- **Quando pode ser útil:**  
-Se o sistema estiver com comportamentos estranhos ou apresentando falhas.
-
-- **Exemplo de uso:**  
-sfc /scannow
+msinfo32
 
 yaml
 Copiar código
 
 ---
 
-### 5. **wmic diskdrive get status**
-
+### 4. `set`
 - **O que ele faz:**  
-Mostra o status dos discos conectados (HDs e SSDs), indicando se há falhas físicas detectadas.
-
+Exibe todas as variáveis de ambiente do sistema, que podem incluir caminhos de drivers, dispositivos conectados, etc.
 - **Quando pode ser útil:**  
-Para avaliar se o disco está saudável ou começando a falhar.
-
+Para verificar se o ambiente está configurado corretamente para reconhecer hardware e software.
 - **Exemplo de uso:**  
-wmic diskdrive get status
+set
 
 yaml
 Copiar código
+
+---
+
+### 5. `powercfg /batteryreport`
+- **O que ele faz:**  
+Gera um relatório completo da bateria do notebook em formato HTML.
+- **Quando pode ser útil:**  
+Para diagnosticar desgaste da bateria, verificar ciclos de carga ou saber se é hora de trocar.
+- **Exemplo de uso:**  
+
+
 
 ## 🛠️ Parte 3: Criação do Repositório no GitHub
 
