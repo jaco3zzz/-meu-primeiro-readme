@@ -104,3 +104,30 @@ yaml
 Copiar código
 
 
+
+ O que é um README.md?
+O README.md é um arquivo que apresenta e explica um projeto, trazendo informações importantes como objetivos, instruções de uso, configurações e detalhes técnicos. Ele é escrito em Markdown, uma linguagem simples para formatação de texto.
+
+## 💻 Comandos CMD voltados para hardware
+
+1. **Comando:** `systeminfo`  
+   **Função:** Mostra informações detalhadas sobre o sistema operacional e o hardware.  
+   **Uso:** Diagnóstico geral do computador.
+
+2. **Comando:** `wmic cpu get name`  
+   **Função:** Exibe o nome e modelo do processador.  
+   **Uso:** Verificar o tipo de CPU para diagnóstico ou compatibilidade.
+
+3. **Comando:** `chkdsk`  
+   **Função:** Verifica e corrige erros no disco rígido.  
+   **Uso:** Detectar e reparar problemas no HD ou SSD.
+
+4. **Comando:** `sfc /scannow`  
+   **Função:** Verifica e repara arquivos protegidos do sistema Windows.  
+   **Uso:** Corrigir arquivos corrompidos que podem causar instabilidade.
+
+5. **Comando:** `wmic diskdrive get status`  
+   **Função:** Mostra o status dos discos conectados, indicando se estão saudáveis.  
+   **Uso:** Avaliar a integridade do disco rígido.
+
+
