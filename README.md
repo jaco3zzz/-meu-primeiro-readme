@@ -99,25 +99,34 @@ Após isso, o repositório foi criado com sucesso e o arquivo `README.md` foi ed
 
 ## 💻 Comandos CMD voltados para hardware
 
-1. **Comando:** `systeminfo`  
-   **Função:** Mostra informações detalhadas sobre o sistema operacional e o hardware.  
-   **Uso:** Diagnóstico geral do computador.
 
-2. **Comando:** `wmic cpu get name`  
-   **Função:** Exibe o nome e modelo do processador.  
-   **Uso:** Verificar o tipo de CPU para diagnóstico ou compatibilidade.
+1. **Comando:** `driverquery`  
+   **Função:** Lista todos os drivers instalados no sistema, incluindo o nome do módulo, tipo e data.  
+   **Uso:** Verificar se os drivers de hardware estão instalados corretamente ou identificar problemas de compatibilidade.  
+   **Exemplo de uso:**
 
-3. **Comando:** `chkdsk`  
-   **Função:** Verifica e corrige erros no disco rígido.  
-   **Uso:** Detectar e reparar problemas no HD ou SSD.
 
-4. **Comando:** `sfc /scannow`  
-   **Função:** Verifica e repara arquivos protegidos do sistema Windows.  
-   **Uso:** Corrigir arquivos corrompidos que podem causar instabilidade.
 
-5. **Comando:** `wmic diskdrive get status`  
-   **Função:** Mostra o status dos discos conectados, indicando se estão saudáveis.  
-   **Uso:** Avaliar a integridade do disco rígido.
+   2. **Comando:** `tasklist`  
+**Função:** Exibe todos os processos em execução no sistema, semelhante ao Gerenciador de Tarefas.  
+**Uso:** Identificar programas que consomem muitos recursos da CPU ou da memória.  
+**Exemplo de uso:**
+
+3. **Comando:** `msinfo32`  
+**Função:** Abre a ferramenta "Informações do Sistema", que mostra detalhes do hardware, software e componentes do computador.  
+**Uso:** Obter uma visão geral completa do sistema sem usar programas de terceiros.  
+**Exemplo de uso:**
+
+4. **Comando:** `set`  
+**Função:** Exibe as variáveis de ambiente do sistema, que podem incluir configurações relacionadas ao hardware e software.  
+**Uso:** Verificar se o ambiente está configurado corretamente para reconhecer hardware e software.  
+**Exemplo de uso:**
+
+5. **Comando:** `powercfg /batteryreport`  
+**Função:** Gera um relatório detalhado da bateria do notebook em formato HTML.  
+**Uso:** Diagnosticar desgaste da bateria, verificar ciclos de carga e avaliar a saúde da bateria.  
+**Exemplo de uso:**
+
 
 ## 👤 Autor  
 Luis Gustavo Giacometo de Souza
